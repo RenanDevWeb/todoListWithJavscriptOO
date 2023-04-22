@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="add-container">
+            <h2>Adicione a tarefa</h2>
+            <form action="">
+                <input type="text" name="task" id="task" placeholder="Adicione aqui sua tarefa">
+                <button type="submit" id="add"><i class="fa fa-plus"></i></button>
+            </form>
+        </div>
+
+
+        <div id="task-container">
+            <h2>Suas Tarefas</h2>
+            <!-- template -->
+            <div class="task hide">
+                <i class="fa fa-check "></i>
+                <span class="task-title ">Titulo tarefa</span>
+                <i class="fa fa-trash " aria-hidden="true"></i>
+            </div>
+            <!-- fim do template -->
+            <div id="empty-tasks">Não há tarefas</div>
+        </div>
+    </div>
+
+
+ <script src="./js/script.js"></script>   
+</body>
+</html>
